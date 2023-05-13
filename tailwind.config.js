@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        PopinsB: ['Popins-Bold'],
+        PopinsBI: ['Popins-BoldItalic'],
+        PopinsEB: ['Popins-ExtraBold'],
+        PopinsEBI: ['Popins-ExtraBoldItalic'],
+        PopinsI: ['Popins-Italic'],
+        PopinsR: ['Popins-Regular'],
+      },
+    },
   },
   plugins: [],
 }
